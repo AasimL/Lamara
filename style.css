@@ -1,0 +1,116 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+    text-align: right;
+}
+
+header .nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Hero section */
+.hero {
+    background: #333 url('hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* About section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Featured product section */
+.featured {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+.product a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.product a:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
